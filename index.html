@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>David Timerman | Badass muthafucka</title>
+  <meta name="description" content="David Timerman - Web Developer - Blog and Portfolio">
+  <meta name="author" content="David Timerman">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <!--[if lt IE 9]>
+  	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+  <div class="wrap" id="topwrap" >
+
+	<header>
+		<div id="logo">
+			<img src="images/davidtimerman_logo.png" alt="David Timerman Logo">
+		</div>
+	</header>
+
+	<nav id="menu_over_banner">
+		<ul>
+			<li class="active link_home">HOME</li>
+			<li class="link_aboutme">ABOUT ME</li>
+			<li>BLOG</li>
+			<li class="link_contactme">CONTACT</li>
+		</ul>
+	</nav>
+
+   
+   </div>
+   
+
+
+	<div id="banner">
+		<img src="images/davidtimerman_banner.jpg" alt="">		
+	</div>
+
+<div class="wrap">
+	<nav id="menu_under_banner">
+		<ul>
+			<li class="active link_home" >HOME</li>
+			<li class="link_aboutme">ABOUT ME</li>
+			<li>BLOG</li>
+			<li class="link_contactme">CONTACT</li>
+		</ul>
+	</nav>
+
+	<div id="content">
+
+		<div class="post_holder aboutme">
+			
+			<h2>A Little bit about me</h2>
+			<img src="images/davidtimerman_eyes.jpg" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+
+<!-- 		<div class="post_holder">
+
+			<h2>Raw Tapes Records Website</h2>
+			<img src="images/davidtimerman_rawtapes.jpg" alt="">			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div> -->
+
+		<div class="post_holder contactme">
+
+			<h2>Contact</h2>
+			<img src="images/davidtimerman_contact.jpg" alt="">		
+			<div id="contact_icons_holder">
+				<div id="linkedin"></div>
+				<div id="facebook"></div>
+				<div id="email"></div>
+			</div>		
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+  </div>
+  	<footer>
+		<div id="footer_seperator"></div>
+
+	<nav id="footer_menu">
+		<ul>
+			<li class="active link_home" >HOME</li>
+			<li class="link_aboutme">ABOUT ME</li>
+			<li>BLOG</li>
+			<li class="link_contactme">CONTACT</li>
+		</ul>
+	</nav>
+
+
+		<span id="footer_copyright">
+			&copy; David timerman 2015-2016 all rights reserved 
+		</span>
+	</footer>
+  <script>
+  function animateTo(elementClicked, animateToElement){
+  	$(elementClicked).click(function() {
+	    $('html, body').animate({
+	        scrollTop: $(animateToElement).offset().top
+	    }, 1000);
+	});
+  }
+
+  animateTo('.link_home','html');
+  animateTo('.link_aboutme','.aboutme');
+  animateTo('.link_contactme', '.contactme');	
+  </script>
+</body>
+</html>

@@ -1,0 +1,257 @@
+@import url(http://fonts.googleapis.com/earlyaccess/myanmarsanspro.css);
+
+body {
+	background-color:black;
+	font-family: 'Myanmar Sans Pro', sans-serif;
+}
+
+.wrap{
+	width:80%;
+	margin:0 auto;
+    color: white;
+}
+
+#topwrap{
+	height:175px;
+}
+
+#menu_over_banner{
+    position: absolute;
+    top: 90px;
+}
+
+#menu_under_banner{
+	display: none;
+}
+
+#menu_over_banner li {
+	text-align: left;
+	width:initial;
+	padding: 20px;
+	/*border-right:solid 5px #6d7498;*/
+	line-height:2px;	
+}
+
+#menu_over_banner li:last-child {
+	border:none;
+}
+
+#menu_over_banner li:first-child {
+	padding-left:12px;
+}
+
+header {
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+nav {
+	height: 50px;
+	width:80%;
+	margin:0 auto;
+	position:relative;
+}
+
+nav ul {
+	list-style-type: inline;
+	margin:0 auto;
+	position: relative;
+	width:100%;
+	text-align: center;
+	padding:0;
+}
+
+nav ul li {
+	float:left;
+	font-size:30px;
+	color:#6d7498;
+	line-height:50px;
+	width:24%;
+}
+
+nav ul li:last-child{
+	border:none;
+}
+
+nav ul li:hover{
+	color:#608bbb;
+}
+
+nav ul li.active{
+	color:#608bbb;
+}
+
+footer nav li{
+	font-size:16px;
+	width:25%;
+
+}
+
+footer nav{
+    margin: 0 auto;
+    width: 36%;
+
+}
+
+
+
+
+
+#content {
+
+    width: 80%;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+	letter-spacing: 0.05px;
+}
+
+#content h2{
+	line-height: 2px;
+	text-align: center;
+	float:left;
+	color:#608bbb;
+}
+
+#content p {
+	color:#6d7498;
+	font-size:18px;
+	font-weight:bold;
+	text-align: center;
+	width:100%;
+	float:left;
+}
+
+#content img {
+    text-align: center;
+    border: 2px;
+    border-radius: 5px;
+    opacity: 0.6 !important;
+    width:100%;
+}
+
+#content img:hover {
+	opacity:1 !important;
+}
+
+
+.post_holder{
+	height:100vh;
+}
+
+.aboutme{
+	height:100vh;
+}
+
+#footer_seperator{
+	background-color:#6d7498;
+	height:10px;
+	position:relative;
+	width:100%;
+	margin:0 auto;
+}
+
+footer{
+	text-align:center;
+	color:white;
+	bottom:0vh;
+	position:fixed;
+	width:100%;
+	background-color:black;
+	height:105px;
+}
+
+#contact_icons_holder{
+	width: 50%;
+    margin: 15px auto;
+}
+
+#contact_icons_holder div{
+	float: left;
+    background-size: 100% 100%;
+    width: 13% !important;
+    height: 8% !important;
+    margin-left: 15%;
+}
+
+#linkedin{
+	background-image:url('images/davidtimerman_linkedin.png');
+}
+
+#facebook{
+	background-image:url('images/davidtimerman_facebook.png');
+}
+
+#email{
+	background-image:url('images/davidtimerman_email.png');
+}
+
+#linkedin:hover{
+	background-image:url('images/davidtimerman_linkedin_hover.png');
+}
+
+#facebook:hover{
+	background-image:url('images/davidtimerman_facebook_hover.png');
+}
+
+#email:hover{
+	background-image:url('images/davidtimerman_email_hover.png');
+}
+
+#footer_copyright{
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+
+@media (max-width:960px){
+	
+
+	#menu_over_banner{
+		display:none;
+	}
+
+	#menu_under_banner{
+		display:block;
+	}
+
+	#content{
+		width:100%;
+	}
+
+	#wrap{
+		width:100%;
+	}
+
+	#topwrap{
+	height:initial;
+	}
+
+	header {
+    width: 80%;
+    margin: 0 auto;
+    top: 0px;
+    position: relative;
+	}
+
+	img{
+		width:100%;
+	}
+
+	nav ul li{
+/*		float:left;*/
+		width:100%;
+	}
+
+	#content h2{
+		width:100%;
+		line-height:initial;
+	}
+
+	footer div div{
+		margin-top: 10px;
+	}
+
+}
